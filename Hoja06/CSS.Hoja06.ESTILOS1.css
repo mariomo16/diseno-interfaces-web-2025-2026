@@ -1,0 +1,29 @@
+body {
+	print-color-adjust: exact;  /* https://stackoverflow.com/questions/3893986/css-media-print-issues-with-background-color */
+}
+
+table {
+	width: 50%;
+}
+th,
+td {
+	height: 20px;
+}
+
+table,
+th,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+.header-footer {
+	background-color: #ee9451;
+	font-weight: bold;
+}
+.fuerte {
+	background-color: #5880bb;
+}
+.claro {
+	background-color: #c9d9f0;
+}

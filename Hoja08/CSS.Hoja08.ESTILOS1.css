@@ -1,0 +1,41 @@
+h1,
+p {
+	padding: 5px;
+}
+
+h1,
+#primer {
+	border: 3px black solid;
+}
+h1 {
+	background-color: lightskyblue;
+	text-align: center;
+}
+
+#contenedor {
+	border: 10px orange solid;
+	padding: 15px;
+	margin: 25px;
+	width: 500px;
+	background-color: lightpink;
+}
+
+#parrafo1 {
+	border: 2px solid blue;
+	border-top: 5px double green;
+}
+#parrafo2 {
+	border: 2px solid blue;
+	border-bottom: thick dashed green;
+}
+#parrafo3 {
+	border: 5px dotted green;
+    border-left: 10px dotted green;
+    border-right: 10px dotted green;
+}
+#parrafo4 {
+	border-top: 8px double blue;
+    border-right: 3px dashed red;
+    border-bottom: 7px solid white;
+    border-left: 7px solid purple;
+}
