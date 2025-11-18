@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Pretty";
+    src: url("Pretty Summer.ttf");
+}
+
+#contenedor {
+    width: 100vw;
+    height: 100vh;
+}
+
+* {
+    padding: 0;
+    margin: 5px;
+    font-family: "Segoe UI";
+}
+
+/* EXAMEN */
+#cabecera {
+    text-align: center;
+}
+#logo {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+#nombre {
+    color: darkgreen;
+}
+#nombre > h3 {
+    font-family: "Pretty";
+    font-weight: 200;
+    font-size: 2.2em;
+}
+#nombre > h4 {
+    font-size: 1.6em;
+    font-weight: 400;
+    background-color: khaki;
+    margin: auto;
+    max-width: fit-content;
+}
+
+ul {
+    list-style-type: none;
+}
+#menuH {
+    text-align: left;
+    margin-bottom: 10px;
+}
+#menuH > ul > li {
+    display: inline;
+    color: darkgreen;
+    margin-right: 10px;
+    font-size: 1em;
+}
+#menuH > ul > li:hover {
+    background-color: #a4d442;
+    color: white;
+}
+
+#menuIzq {
+    float: left;
+    background-color: #a4d442;
+    color: white;
+    font-size: 1.1em;
+    border: gray solid 1px;
+}
+#menuIzq > ul > li {
+    border-top: solid gray 1px;
+    padding: 5px;
+    text-align: center;
+}
+#menuIzq > ul > li:hover {
+    background-color: #ffc107;
+}
+
+#contenido {
+    float: left;
+}
+.ficha {
+    float: left;
+    border: solid gray 1px;
+    padding-bottom: 10px;
+}
+h6 {
+    text-align: center;
+    color: darkgreen;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+h6 ~ p > img {
+    position: relative;
+    top: 11px;
+    margin: 0px;
+}
+#pie {
+    clear: both;
+    background: #a4d442;
+}
+#pie > div {
+    width: 48%;
+}
+.pieIzq {
+    float: left;
+    margin-right: 0px;
+    background-color: #a4d442;
+    height: 80px;
+}
+.pieDer {
+    float: left;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: #a4d442;
+    height: 80px;
+}
+.clear {
+    clear: both;
+}
+
+.IG {
+    position: relative;
+    top: 10px;
+}
