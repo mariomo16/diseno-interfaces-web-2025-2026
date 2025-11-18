@@ -1,0 +1,172 @@
+@font-face {
+	font-family: "MangaT";
+	src: url("mangat.ttf");
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 5px;
+	font-family: "Segoe UI", sans-serif;
+}
+
+#contenedor {
+	width: 100%;
+	height: 100%;
+}
+
+/******* PONER VUESTROS ESTILOS A PARTIR DE AQUI *******/
+
+body {
+	min-width: 550px;
+}
+
+#logo {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+}
+
+#nombre {
+	position: relative;
+	top: 20px;
+	left: 40px;
+	text-align: center;
+}
+
+#nombre > h3 {
+	font-family: "MangaT", sans-serif;
+	font-size: 2em;
+}
+
+#nombre > h4 {
+	font-size: 1.4em;
+	font-weight: 400;
+	width: fit-content;
+}
+
+#menuPrincipal {
+	display: inline-block;
+}
+
+#menuPrincipal > ul > li {
+	display: inline-block;
+	padding: 5px;
+	font-size: 1.1em;
+}
+
+#menuPrincipal > ul > li:hover {
+	background-color: pink;
+	color: white;
+}
+
+.IG {
+	position: relative;
+	top: 9px;
+}
+
+#menuIzq {
+	float: left;
+}
+
+.ficha {
+	float: left;
+	border: 1px solid gray;
+}
+
+#nombre > h4 {
+	padding: 5px 5px 5px 10px;
+	background-color: pink;
+}
+
+.ficha > div > h6 {
+	font-size: 1.25em;
+	font-weight: 300;
+	text-align: center;
+}
+
+.ficha > div:last-child {
+	margin-bottom: 10px;
+}
+
+.ficha > div > p > img {
+	margin-right: -5px;
+}
+
+.ficha > div > p > img {
+	margin-top: 0px;
+	position: relative;
+	top: 15px;
+}
+
+#pie {
+	background-color: pink;
+	clear: both;
+}
+
+#pieIzq {
+	clear: left;
+	width: 48%;
+}
+
+#pieDer {
+	clear: right;
+	width: 48%;
+}
+
+.ficha > img {
+	width: 200px;
+  height: 250px;
+}
+
+#contenido {
+	display: flexbox;
+	align-content: center;
+}
+
+@media screen and (min-width: 961px) {
+	#menuH {
+		display: none;
+	}
+	table,
+	td {
+		background-color: pink;
+		border: 1px solid gray;
+		border-collapse: collapse;
+		padding: 15px;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 646px) {
+	#menuH {
+		display: none;
+	}
+	table,
+	td {
+		background-color: pink;
+		border: 1px solid gray;
+		border-collapse: collapse;
+		padding: 15px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 645px) {
+	#menuIzq {
+		display: none;
+	}
+	td {
+		background-color: pink;
+		border: 1px solid gray;
+		border-collapse: collapse;
+		padding: 15px;
+		text-align: center;
+	}
+  #menuPrincipal {
+    width: 90%;
+  }
+  #menuH {
+    width: 80%;
+  }
+}
