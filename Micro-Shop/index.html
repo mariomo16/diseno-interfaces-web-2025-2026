@@ -14,57 +14,61 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </head>
     <body>
-        <header>
-            <h1 class="bg-info text-white text-center">Micro-Shop</h1>
-            <div class="bg-light">
-                <p>Registrarse</p>
-                <p>Login</p>
-            </div>
+        <header class="p-2 bg-info text-white text-center">
+            <h1>Micro-Shop</h1>
         </header>
-        <nav>
-            <ul class="list-unstyled">
-                <li class="bg-warning"><a href="">Inicio</a></li>
-                <li
-                    class="bg-info dropdown btn dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                >
-                    <a>Productos</a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a class="dropdown-item" href="#">Procesadores</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#">Memoria RAM</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#">Placas Base</a>
-                        </li>
-                    </ul>
-                </li>
-
-                <li class="bg-warning"><a href="">Presupuesto</a></li>
-                <li class="bg-info"><a href="">Galería</a></li>
-                <li class="bg-warning">
-                    Pedidos <span class="badge bg-info">3</span>
-                </li>
-            </ul>
+        <nav class="row bg-light">
+            <p class="col-lg-1">Registrarse</p>
+            <p class="col-lg-11">Login</p>
         </nav>
-        <main class="container">
-            <section>
+        <main class="row">
+            <nav class="col-lg-3 text-center bg-secondary">
+                <ul class="list-unstyled">
+                    <li class="bg-warning p-1"><a href="" class="text-decoration-none text-black">Inicio</a></li>
+                    <li
+                        class="bg-info dropdown btn dropdown-toggle p-1"
+                        data-bs-toggle="dropdown"
+                    >
+                        <a>Productos</a>
+                        <ul class="dropdown-menu">
+                            <li class="p-1 text-black">
+                                <a class="dropdown-item" href="#"
+                                    >Procesadores</a
+                                >
+                            </li>
+                            <li class="p-1 text-black">
+                                <a class="dropdown-item" href="#"
+                                    >Memoria RAM</a
+                                >
+                            </li>
+                            <li class="p-1 text-black">
+                                <a class="dropdown-item" href="#"
+                                    >Placas Base</a
+                                >
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="bg-warning p-1 "><a href="#" class="text-decoration-none text-black">Presupuesto</a></li>
+                    <li class="bg-info p-1"><a href="#" class="text-decoration-none text-black">Galería</a></li>
+                    <li class="bg-warning p-1"><a href="#" class="text-decoration-none text-black">Pedidos <span class="badge bg-info">3</span></a></li>
+                </ul>
+            </nav>
+            <section class="col-lg-9 display-6 bg-danger">
                 <p>¡ Bienvenidos !</p>
                 <p>
-                    EN Micro-Shop encontrarás productos con calidad, buen precio
+                    En <span class="text-primary display-5">Micro-Shop</span> encontrarás productos con calidad, buen precio
                     y un servicio al cliente inmejorable!
                 </p>
                 <p>Gracias por su visita!</p>
             </section>
         </main>
-        <footer>
-            <p>Quiénes Somos</p>
-            <p>Trabaja con nosotros</p>
-            <p>Tarifas de envío</p>
-            <p>Localizar un pedido</p>
-            <p>Devolver un producto</p>
+        <footer class="row col-6 col-sm-4 col-md-3 col-lg-12 bg-info">
+            <p class="col-lg-2">Quiénes Somos</p>
+            <p class="col-lg-2">Trabaja con nosotros</p>
+            <p class="col-lg-2">Tarifas de envío</p>
+            <p class="col-lg-2">Localizar un pedido</p>
+            <p class="col-lg-2">Devolver un producto</p>
         </footer>
     </body>
 </html>
