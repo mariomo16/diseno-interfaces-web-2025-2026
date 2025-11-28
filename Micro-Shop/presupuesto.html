@@ -60,10 +60,46 @@
                 </div>
             </div>
 
-            <div class="row d-sm-none">
+            <div class="d-sm-none">
                 <div>
-                    <a href="index.html" class="btn btn-warning">Inicio</a>
-                    <button class="btn btn-info">Productos</button>
+                    <a href="index.html" class="btn btn-warning"
+                        ><svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-house"
+                            viewBox="0 0 16 16"
+                        >
+                            <path
+                                d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"
+                            /></svg
+                    ></a>
+                    <div class="btn-group">
+                        <button
+                            class="btn btn-info dropdown-toggle"
+                            data-bs-toggle="dropdown"
+                        >
+                            Productos
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#"
+                                    >Procesadores</a
+                                >
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"
+                                    >Memoria RAM</a
+                                >
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"
+                                    >Placas Base</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
                     <a href="presupuesto.html" class="btn btn-warning"
                         >Presupuesto</a
                     >
@@ -73,82 +109,89 @@
                     </button>
                 </div>
             </div>
-
             <div class="row">
-                <div class="col-sm-3 d-none d-sm-block">
-                    <div class="btn-group-vertical w-100">
-                        <a href="index.html" class="btn btn-warning">Inicio</a>
-                        <div class="btn-group">
-                            <button
-                                class="btn btn-info dropdown-toggle"
-                                data-bs-toggle="dropdown"
+                <div class="row">
+                    <div class="col-sm-3 d-none d-sm-block">
+                        <div class="btn-group-vertical w-100">
+                            <a href="index.html" class="btn btn-warning"
+                                >Inicio</a
                             >
-                                Productos
+                            <div class="btn-group">
+                                <button
+                                    class="btn btn-info dropdown-toggle"
+                                    data-bs-toggle="dropdown"
+                                >
+                                    Productos
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Procesadores</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Memoria RAM</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Placas Base</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="presupuesto.html" class="btn btn-warning"
+                                >Presupuesto</a
+                            >
+                            <a href="galeria.html" class="btn btn-info"
+                                >Galería</a
+                            >
+                            <button class="btn btn-warning">
+                                Pedidos <span class="badge bg-info">3</span>
                             </button>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="#"
-                                        >Procesadores</a
-                                    >
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#"
-                                        >Memoria RAM</a
-                                    >
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#"
-                                        >Placas Base</a
-                                    >
-                                </li>
-                            </ul>
                         </div>
-                        <a href="presupuesto.html" class="btn btn-warning"
-                            >Presupuesto</a
-                        >
-                        <a href="galeria.html" class="btn btn-info">Galería</a>
-                        <button class="btn btn-warning">
-                            Pedidos <span class="badge bg-info">3</span>
-                        </button>
                     </div>
-                </div>
 
-                <div class="col-sm-9 col-10 px-5">
-                    <p>
-                        El
-                        <span class="text-primary">presupuesto</span> solicitado
-                        es el siguiente:
-                    </p>
-                    <table class="table text-center">
-                        <tr class="fw-bold">
-                            <td class="bg-warning">Producto</td>
-                            <td class="bg-warning">Cantidad</td>
-                            <td class="bg-warning">Precio</td>
-                            <td class="bg-warning">Total</td>
-                        </tr>
-                        <tr>
-                            <td>Procesador Intel Core i7</td>
-                            <td>1</td>
-                            <td>400€</td>
-                            <td>400€</td>
-                        </tr>
-                        <tr>
-                            <td>Memoria RAM DDR4 8GB</td>
-                            <td>2</td>
-                            <td>50€</td>
-                            <td>100€</td>
-                        </tr>
-                        <tr>
-                            <td>Placa Base MSI</td>
-                            <td>1</td>
-                            <td>99€</td>
-                            <td>99€</td>
-                        </tr>
-                        <tr>
-                            <td class="text-end text-danger">Total</td>
-                            <td class="bg-warning text-danger fw-bold">599€</td>
-                        </tr>
-                    </table>
+                    <div class="col-sm-9 col-10 px-5">
+                        <p>
+                            El
+                            <span class="text-primary">presupuesto</span>
+                            solicitado es el siguiente:
+                        </p>
+                        <table class="table text-center">
+                            <tr class="fw-bold">
+                                <td class="bg-warning">Producto</td>
+                                <td class="bg-warning">Cantidad</td>
+                                <td class="bg-warning">Precio</td>
+                                <td class="bg-warning">Total</td>
+                            </tr>
+                            <tr>
+                                <td>Procesador Intel Core i7</td>
+                                <td>1</td>
+                                <td>400€</td>
+                                <td>400€</td>
+                            </tr>
+                            <tr>
+                                <td>Memoria RAM DDR4 8GB</td>
+                                <td>2</td>
+                                <td>50€</td>
+                                <td>100€</td>
+                            </tr>
+                            <tr>
+                                <td>Placa Base MSI</td>
+                                <td>1</td>
+                                <td>99€</td>
+                                <td>99€</td>
+                            </tr>
+                            <tr>
+                                <td class="text-end text-danger">Total</td>
+                                <td class="bg-warning text-danger fw-bold">
+                                    599€
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
             </div>
 
