@@ -44,6 +44,8 @@ header h1 {
 }
 
 .intro p {
+	/* Cambio la fuente porque si me pongo a leer texto de tamaño normal con Pretty Summer me dejo los ojos */
+	font-family: sans-serif;
 	font-size: 1.1rem;
 	color: #555;
 }
@@ -93,6 +95,8 @@ header h1 {
 }
 
 .activity p {
+	/* Cambio la fuente porque si me pongo a leer texto de tamaño normal con Pretty Summer me dejo los ojos */
+	font-family: sans-serif;
 	font-size: 1rem;
 	color: #555;
 	line-height: 1.8;
