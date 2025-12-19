@@ -55,8 +55,8 @@ header h1 {
 	margin: 40px 0 20px 0;
 }
 
-/* Parece que se ve mejor que con flex */
 .gallery-grid {
+	/* Parece que se ve mejor que con flex */
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	gap: 20px;
@@ -66,7 +66,7 @@ header h1 {
 .gallery-item img {
 	width: 100%;
 	height: 220px;
-	object-fit: cover;
+	object-fit: cover; /* Para que las fotos no se vean raras */
 	border-radius: 8px;
 	border: 3px solid #2c5aa0;
 }
