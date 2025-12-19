@@ -1,67 +1,76 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Multiaventura</title>
-        <style>
-            body {
-                font-family: "Pretty Summer", sans-serif;
-                margin: 0;
-                padding: 0;
-            }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cieza Aventura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cieza Aventura</h1>
+    </header>
 
-            header h1 {
-                float: right;
-                margin-right: 20px;
-            }
+    <div class="container">
+        <section class="intro">
+            <h2>¡Vive la Aventura!</h2>
+            <p>Descubre los paisajes más impresionantes de Cieza y su entorno. Déjate llevar por la naturaleza, la emoción y la aventura en cada rincón de nuestra tierra.</p>
+        </section>
 
-            nav {
-                float: left;
-            }
-
-            .card {
-                float: left;
-            }
-
-            img {
-                width: 200px;
-                height: 300px;
-            }
-
-            footer {
-                position: fixed;
-                bottom: 0;
-                width: 100%;
-                text-align: center;
-            }
-        </style>
-    </head>
-    <body>
-        <header>
-            <h1>Multiaventura</h1>
-            <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Atracciones</a>
-                <a href="#">Contacto</a>
-            </nav>
-        </header>
-        <main>
-            <div class="card">
-                <img src="./images/16673261326_7f1efb30b2_b.jpg" />
-                <p></p>
+        <section class="gallery">
+            <h2>Nuestro Paraíso Natural</h2>
+            <!-- 
+                Todas las imagenes en tamaño grande, aunque cada una tenia una res distinta, con el filtro de "Se permite su uso comercial"
+                He puesto solamente 4 fotos porque tampoco habia muchas mas para elegir que tuvieran que ver con actividades
+            -->
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="./images/54004517819_843507483f_k.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img src="./images/49651653758_f6fb27d489_k.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img src="./images/49652465982_7a6e44b175_h.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img src="./images/49368745402_9fabcfb3e2_k.jpg">
+                </div>
             </div>
-            <div class="card">
-                <img src="./images/17444445842_a43576164c_b.jpg" />
-                <p></p>
+        </section>
+
+        <section class="activities">
+            <h2>Nuestras Actividades</h2>
+
+            <div class="activity">
+                <h3>Senderismo</h3>
+                <p>Explora las rutas de montaña más espectaculares de Cieza con nuestros guías expertos. Recorre senderos con vistas panorámicas del río Segura y los valles circundantes. Descubre flora y fauna autóctona mientras disfrutas de la naturaleza en estado puro. Rutas para todos los niveles.</p>
             </div>
-            <div class="card">
-                <img src="./images/49033616803_edf563727d_b.jpg" />
-                <p></p>
+
+            <div class="activity">
+                <h3>Visita a las Cuevas</h3>
+                <p>Adéntrate en el fascinante mundo subterráneo de las cuevas de Cieza. Descubre formaciones geológicas milenarias, estalactitas y estalagmitas impresionantes en un entorno único. Una experiencia inolvidable para los amantes de la geología y la aventura. Equipo de seguridad incluido.</p>
             </div>
-        </main>
-        <footer>
-            <p>Mario Morales Ortega | 2025</p>
-        </footer>
-    </body>
+
+            <div class="activity">
+                <h3>Descenso en Barcas por el Río Segura</h3>
+                <p>Navega por las aguas del río Segura y contempla Cieza desde una perspectiva única. Disfruta de un relajante paseo fluvial rodeado de montañas, acantilados rocosos y vegetación de ribera. Una experiencia perfecta para familias y grupos que quieren disfrutar de la naturaleza con tranquilidad.</p>
+            </div>
+
+            <div class="activity">
+                <h3>Rutas en Mountain Bike</h3>
+                <p>Recorre los senderos de montaña más emocionantes de la zona en bicicleta. Circuitos entre el río y las elevaciones montañosas con paisajes espectaculares, bajadas técnicas y tramos de adrenalina. Rutas diseñadas para diferentes niveles con vistas privilegiadas del entorno natural.</p>
+            </div>
+
+            <div class="activity">
+                <h3>Observación de la Naturaleza</h3>
+                <p>Descubre la riqueza natural de Cieza en nuestras rutas de observación. El contraste entre el río Segura y las montañas crea un ecosistema único donde habitan numerosas especies de aves y fauna silvestre. Ideal para amantes de la naturaleza y la fotografía de paisaje.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Mario Morales Ortega | 2025</p>
+    </footer>
+</body>
 </html>
